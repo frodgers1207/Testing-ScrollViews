@@ -18,7 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
         let scrollViewVC = ScrollViewVC()
-        window!.rootViewController = scrollViewVC
+        let scrollViewNC = UINavigationController(rootViewController: scrollViewVC)
+        let tbc = UITabBarController()
+        tbc.viewControllers = [scrollViewNC]
+        window!.rootViewController = tbc
         window!.makeKeyAndVisible()
         return true
     }

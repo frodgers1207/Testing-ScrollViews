@@ -6,16 +6,16 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScrollViewVC" customModule="testing" customModuleProvider="target">
             <connections>
-                <outlet property="contentView" destination="z3x-5k-VTO" id="XXc-td-RJ5"/>
-                <outlet property="contentViewImageContainer" destination="8Er-8o-eRg" id="CNd-vh-ubZ"/>
-                <outlet property="contentViewPrice" destination="AeZ-oX-Q3c" id="Noi-WE-JPb"/>
-                <outlet property="contentViewTitle" destination="jel-MS-wZn" id="Pkf-Om-hac"/>
-                <outlet property="imageContainer" destination="mCD-Gb-Y76" id="K2k-C9-0fu"/>
-                <outlet property="imageOne" destination="CUm-Xz-04N" id="36M-P6-ode"/>
-                <outlet property="imageThree" destination="d6g-mQ-oxZ" id="jLY-4c-DFv"/>
-                <outlet property="imageTwo" destination="bmf-zO-sNp" id="4iu-co-XcO"/>
-                <outlet property="mainScrollView" destination="8Er-8o-eRg" id="6PI-Yi-G0e"/>
-                <outlet property="view" destination="CCd-UY-I9J" id="tbb-Lj-DM8"/>
+                <outlet property="contentView" destination="z3x-5k-VTO" id="Noc-Pa-FCK"/>
+                <outlet property="contentViewImageContainer" destination="8Er-8o-eRg" id="rRL-La-Q8r"/>
+                <outlet property="contentViewPrice" destination="AeZ-oX-Q3c" id="06i-dq-V3F"/>
+                <outlet property="contentViewTitle" destination="jel-MS-wZn" id="5Np-MH-Sh5"/>
+                <outlet property="imageContainer" destination="mCD-Gb-Y76" id="0g9-8S-7ha"/>
+                <outlet property="imageOne" destination="CUm-Xz-04N" id="Z5V-NJ-Wlb"/>
+                <outlet property="imageThree" destination="d6g-mQ-oxZ" id="15X-EQ-e9Y"/>
+                <outlet property="imageTwo" destination="bmf-zO-sNp" id="t2Z-To-r8K"/>
+                <outlet property="mainScrollView" destination="A6v-au-gWH" id="6Tv-oB-uqb"/>
+                <outlet property="view" destination="CCd-UY-I9J" id="7OL-qc-AWM"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -95,14 +95,14 @@
             <rect key="frame" x="0.0" y="0.0" width="640" height="220"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bmf-zO-sNp">
-                    <rect key="frame" x="220" y="10" width="200" height="200"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d6g-mQ-oxZ">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgres.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d6g-mQ-oxZ">
                     <rect key="frame" x="430" y="10" width="200" height="200"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUm-Xz-04N">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgres.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CUm-Xz-04N">
                     <rect key="frame" x="10" y="10" width="200" height="200"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgres.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bmf-zO-sNp">
+                    <rect key="frame" x="220" y="10" width="200" height="200"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -110,4 +110,7 @@
             <point key="canvasLocation" x="1114" y="248"/>
         </view>
     </objects>
+    <resources>
+        <image name="imgres.jpg" width="225" height="225"/>
+    </resources>
 </document>

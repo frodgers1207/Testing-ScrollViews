@@ -11,6 +11,7 @@ import UIKit
 class ScrollViewVC: UIViewController {
 
     @IBOutlet weak var mainScrollView: UIScrollView!
+    
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var contentViewTitle: UILabel!
     @IBOutlet weak var contentViewPrice: UILabel!
@@ -33,9 +34,11 @@ class ScrollViewVC: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        contentView.frame.width = UIScreen.mainScreen().bounds.width
+        self.mainScrollView.contentSize.height = self.contentView.frame.height
+        self.mainScrollView.contentSize.width = UIScreen.mainScreen().bounds.width
         self.mainScrollView.addSubview(contentView)
-        self.mainScrollView.contentSize = self.contentView.frame.size
         self.contentViewImageContainer.addSubview(self.imageContainer)
         self.contentViewImageContainer.contentSize = self.imageContainer.frame.size
     }
